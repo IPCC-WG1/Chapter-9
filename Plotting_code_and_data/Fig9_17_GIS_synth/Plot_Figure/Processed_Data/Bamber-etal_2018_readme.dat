@@ -1,0 +1,46 @@
+/* DATA DESCRIPTION:
+Citation:	Bamber, Jonathan L; Westaway, Richard M; Marzeion, Ben; Wouters, Bert (2018): A new synthesis of annual land ice mass trends 1992 to 2016. PANGAEA, https://doi.org/10.1594/PANGAEA.890030, 
+	Supplement to: Bamber, JL et al. (2018): The land ice contribution to sea level during the satellite era. Environmental Research Letters, 13(6), 063008, https://doi.org/10.1088/1748-9326/aac2f0
+Abstract:	We have assessed and synthesised land ice mass trend results published, primarily, since the IPCC AR5 (2013) to produce a consistent estimate of land ice mass trends during the satellite era (1992 to 2016). Our resulting synthesis is both consistent and rigorous, drawing on i) the published literature, ii) expert assessment of that literature, and iii) a new analysis of Arctic glacier and ice cap trends combined with statistical modelling.
+	In the associated paper (Bamber et al 2018) we present annual and pentad (five-year mean) time series for the East, West Antarctic and Greenland Ice Sheets and glaciers separately and combined. When averaged over pentads, covering the entire period considered, we obtain a monotonic trend in mass contribution to the oceans, increasing from 0.31±0.35 mm of sea level equivalent for 1992-1996 to 1.85±0.13 for 2012-2016. Our integrated land ice trend is lower than many estimates of GRACE-derived ocean mass change for the same periods. This is due, in part, to a smaller estimate for glacier and ice cap mass trends compared to previous assessments. We discuss this, and other likely reasons, for the difference between GRACE ocean mass and land ice trends.
+Coverage:	DATE/TIME START: 1992-06-01T00:00:00 * DATE/TIME END: 2016-06-01T00:00:00
+Parameter(s):	DATE/TIME (Date/Time) * GEOCODE * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk)
+	Mass balance [Gt/a] (MB) * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk) * COMMENT: Mass balance GrIS (dM GrIS): Weighted mean annual (Jan to Dec) mass change for Greenland ice sheet (unit=Gt)
+	Standard deviation [±] (Std dev) * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk) * COMMENT: Stdev GrIS: 1-sigma uncertainty associated with the weighted mean annual mass change, estimated as mean error divided by vn, where n is the number of datasets that provided an annual mass change for that year (unit=Gt)
+	Mass balance [Gt/a] (MB) * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk) * COMMENT: Mass balance WAIS (dM WAIS): Weighted mean annual (Jan to Dec) mass change for West Antarctic ice sheet (unit=Gt)
+	Standard deviation [±] (Std dev) * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk) * COMMENT: Stdev WAIS: 1-sigma uncertainty associated with the weighted mean annual mass change, estimated as mean error divided by vn, where n is the number of datasets that provided an annual mass change for that year (unit=Gt)
+	Mass balance [Gt/a] (MB) * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk) * COMMENT: Mass balance EAIS (dM EAIS): Weighted mean annual (Jan to Dec) mass change for East Antarctic ice sheet (unit=Gt)
+	Standard deviation [±] (Std dev) * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk) * COMMENT: Stdev EAIS: 1-sigma uncertainty associated with the weighted mean annual mass change, estimated as mean error divided by vn, where n is the number of datasets that provided an annual mass change for that year (unit=Gt)
+	Mass balance [Gt/a] (MB) * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk) * COMMENT: Mass balance GIC (dM GIC): Annual (Sep yyyy-1 to Sep yyyy) mass change from our updated synthesis of GIC (unit=Gt)
+	Standard deviation [±] (Std dev) * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk) * COMMENT: Stdev GIC: 1-sigma uncertainty associated with the annual mass change, partitioned in proportion to the data source (unit=Gt)
+	Mass balance [Gt/a] (MB) * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk) * COMMENT: Mass balance Total (dM Total): Annual total global land ice mass change based on this synthesis (unit=Gt)
+	Standard deviation [±] (Std dev) * PI: Bamber, Jonathan L (https://orcid.org/0000-0002-2280-2819, j.bamber@bristol.ac.uk) * COMMENT: Stdev Total: 1-sigma uncertainty expressed as the square root of the summed squares of the errors of the four components (EAIS, WAIS, GrIS, GIC) for each year (unit=Gt)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+Size:	250 data points
+*/
+Date/Time	MB [Gt/a] (Mass balance GrIS (dM GrIS): ...)	Std dev [±] (Stdev GrIS: 1-sigma uncertain...)	MB [Gt/a] (Mass balance WAIS (dM WAIS): ...)	Std dev [±] (Stdev WAIS: 1-sigma uncertain...)	MB [Gt/a] (Mass balance EAIS (dM EAIS): ...)	Std dev [±] (Stdev EAIS: 1-sigma uncertain...)	MB [Gt/a] (Mass balance GIC (dM GIC): An...)	Std dev [±] (Stdev GIC: 1-sigma uncertaint...)	MB [Gt/a] (Mass balance Total (dM Total)...)	Std dev [±] (Stdev Total: 1-sigma uncertai...)
+1992	163	70	46	30	65	76	-16	46	258	117
+1993	-30	76	42	30	41	76	-179	44	-126	120
+1994	-25	77	-111	30	-30	76	-165	44	-331	121
+1995	-159	51	-120	30	-17	76	-173	43	-468	105
+1996	205	123	-132	30	80	76	-51	46	102	155
+1997	61	97	-74	30	-18	76	-156	45	-187	134
+1998	-209	45	16	30	-62	76	-179	43	-434	103
+1999	-16	85	-117	30	-31	76	-170	44	-335	126
+2000	-24	85	-21	30	-102	76	-130	44	-277	126
+2001	-48	83	-69	30	-35	76	-112	43	-263	124
+2002	-192	58	-117	30	105	76	-121	43	-325	109
+2003	-216	13	-106	13	-8	18	-162	30	-492	39
+2004	-196	12	-53	11	64	17	-210	31	-395	39
+2005	-218	13	14	11	54	16	-225	30	-374	38
+2006	-210	12	-124	11	45	17	-148	31	-437	39
+2007	-289	10	-139	11	-44	17	-192	30	-663	38
+2008	-199	11	-99	11	62	17	-190	31	-426	39
+2009	-253	11	-273	11	212	17	-197	30	-511	38
+2010	-426	9	-237	11	15	17	-185	30	-833	37
+2011	-431	9	-236	12	154	18	-222	30	-735	38
+2012	-450	10	-232	12	99	18	-201	31	-784	39
+2013	-80	13	-254	12	39	18	-200	30	-495	39
+2014	-225	13	-161	11	-148	17	-219	30	-753	39
+2015	-217	13	-160	11	-16	17	-260	32	-653	40
+2016	-263	23	-53	55	-70	28	-255	31	-641	73

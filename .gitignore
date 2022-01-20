@@ -16,3 +16,5 @@ Plotting_code_and_data/*/Plot_Figure/Processed_Data/*
 Plotting_code_and_data/*/PNGs/Test_Maps/*
 Plotting_code_and_data/*/PNGs/*_Titled.png
 *.m~
+!Plotting_code_and_data/Fig9_17_GIS_synth/Plot_Figure/Processed_Data/*
+!Plotting_code_and_data/Fig9_18_AIS_synth/Plot_Figure/Processed_Data/*
