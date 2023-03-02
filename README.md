@@ -94,7 +94,7 @@ The ESMValTool recipes for Chapter 9 are contained within this directory. The re
 After ESMValTool crashes, the processed data can be extracted from the appropriate pre-processor directory. 
 Note that you may need to turn off a flag (such as switching `remove_preproc_dir` to `false`) to save the processed data.
 
-The ESMValTool recipe directory contains:
+The ESMValTool recipe directory contains the following files. All were run using [ESMValTool v2.0.0](https://github.com/ESMValGroup/ESMValTool/releases/tag/v2.0.0):
 
 - A [*config* file](https://github.com/BrodiePearson/IPCC_AR6_Chapter9_Figures/blob/main/Functions/ESMValTool_Recipes/config-brodie-Jasmin.yml), which sets various configuration switches including the directories that ESMValTool looks for data sets from CMIP and other sources.
 - A [`Recipes`](https://github.com/BrodiePearson/IPCC_AR6_Chapter9_Figures/tree/main/Functions/ESMValTool_Recipes/Recipes) directory containing the ESMValTool recipes used to extract and process data for Chapter 9. 
