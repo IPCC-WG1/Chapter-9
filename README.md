@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5217365.svg)](https://doi.org/10.5281/zenodo.5217365)
+
 # IPCC AR6 Chapter 9 Figures
 ### Repository with the code and data for all figures from Chapter 9 of the Sixth Assesment Report from the Intergovernmental Panel on Climate Change (IPCC AR6).
 
